@@ -29,4 +29,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge ./ BootCampFaizSample_1.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ BootCampFaizSample_1.surge.sh --token ${{secrets.SURGE_TOKEN}}
